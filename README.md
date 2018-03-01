@@ -13,4 +13,4 @@ The objective of this project is to detect a room by an unique object inside the
 
 ### Demo
 
-<img src="/gifs/demo.gif" width="90%">
+<img src="/gifs/demo.gif" width="30%">
