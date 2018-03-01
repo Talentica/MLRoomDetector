@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E13B214204584A700A64CF2 /* ARkitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E13B213204584A700A64CF2 /* ARkitController.swift */; };
+		5E13B2192045851D00A64CF2 /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E13B2172045851D00A64CF2 /* RoomDetail.swift */; };
+		5E13B21A2045851D00A64CF2 /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E13B2182045851D00A64CF2 /* RoomView.swift */; };
+		5E13B2212045855000A64CF2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E13B21C2045855000A64CF2 /* Utilities.swift */; };
+		5E13B2222045855000A64CF2 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E13B21D2045855000A64CF2 /* Util.swift */; };
+		5E13B2232045855000A64CF2 /* TextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E13B21E2045855000A64CF2 /* TextNode.swift */; };
+		5E13B2242045855000A64CF2 /* ARText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E13B21F2045855000A64CF2 /* ARText.swift */; };
+		5E13B2252045855000A64CF2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E13B2202045855000A64CF2 /* File.swift */; };
+		5E13B2272045873200A64CF2 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E13B2262045873200A64CF2 /* art.scnassets */; };
+		5E13B22920458D6E00A64CF2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E13B22820458D6E00A64CF2 /* Color.swift */; };
+		5E13B22B204595D200A64CF2 /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E13B22A204595D200A64CF2 /* Predictions.swift */; };
+		5E547058203FE91400C8AC9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E547057203FE91400C8AC9B /* AppDelegate.swift */; };
+		5E54705D203FE91400C8AC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E54705B203FE91400C8AC9B /* Main.storyboard */; };
+		5E54705F203FE91400C8AC9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E54705E203FE91400C8AC9B /* Assets.xcassets */; };
+		5E547062203FE91400C8AC9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E547060203FE91400C8AC9B /* LaunchScreen.storyboard */; };
+		5E7439FA2040361C004D2D96 /* build.py in Resources */ = {isa = PBXBuildFile; fileRef = 5E7439F92040361C004D2D96 /* build.py */; };
+		5EDE81DF2043E50300C692F5 /* Painting.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE81DE2043E50300C692F5 /* Painting.mlmodel */; };
+		5EDE81E720440B1100C692F5 /* test.py in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE81E620440B1000C692F5 /* test.py */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E13B213204584A700A64CF2 /* ARkitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARkitController.swift; sourceTree = "<group>"; };
+		5E13B2172045851D00A64CF2 /* RoomDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
+		5E13B2182045851D00A64CF2 /* RoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		5E13B21C2045855000A64CF2 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		5E13B21D2045855000A64CF2 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		5E13B21E2045855000A64CF2 /* TextNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextNode.swift; sourceTree = "<group>"; };
+		5E13B21F2045855000A64CF2 /* ARText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARText.swift; sourceTree = "<group>"; };
+		5E13B2202045855000A64CF2 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5E13B2262045873200A64CF2 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		5E13B22820458D6E00A64CF2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5E13B22A204595D200A64CF2 /* Predictions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
+		5E547054203FE91400C8AC9B /* RoomDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E547057203FE91400C8AC9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E54705C203FE91400C8AC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E54705E203FE91400C8AC9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E547061203FE91400C8AC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E547063203FE91400C8AC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E7439F92040361C004D2D96 /* build.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = build.py; sourceTree = "<group>"; };
+		5EDE81DE2043E50300C692F5 /* Painting.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Painting.mlmodel; sourceTree = "<group>"; };
+		5EDE81E620440B1000C692F5 /* test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E547051203FE91400C8AC9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E13B2162045851100A64CF2 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				5E13B2172045851D00A64CF2 /* RoomDetail.swift */,
+				5E13B2182045851D00A64CF2 /* RoomView.swift */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		5E13B21B2045853C00A64CF2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5E13B21F2045855000A64CF2 /* ARText.swift */,
+				5E13B2202045855000A64CF2 /* File.swift */,
+				5E13B21E2045855000A64CF2 /* TextNode.swift */,
+				5E13B21D2045855000A64CF2 /* Util.swift */,
+				5E13B21C2045855000A64CF2 /* Utilities.swift */,
+				5E13B22820458D6E00A64CF2 /* Color.swift */,
+				5E13B22A204595D200A64CF2 /* Predictions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5E54704B203FE91400C8AC9B = {
+			isa = PBXGroup;
+			children = (
+				5E547056203FE91400C8AC9B /* RoomDetector */,
+				5E547055203FE91400C8AC9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E547055203FE91400C8AC9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E547054203FE91400C8AC9B /* RoomDetector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E547056203FE91400C8AC9B /* RoomDetector */ = {
+			isa = PBXGroup;
+			children = (
+				5E13B21B2045853C00A64CF2 /* Utils */,
+				5E13B2162045851100A64CF2 /* Room */,
+				5EDE81DE2043E50300C692F5 /* Painting.mlmodel */,
+				5E7439F92040361C004D2D96 /* build.py */,
+				5E547057203FE91400C8AC9B /* AppDelegate.swift */,
+				5E13B213204584A700A64CF2 /* ARkitController.swift */,
+				5E54705B203FE91400C8AC9B /* Main.storyboard */,
+				5E54705E203FE91400C8AC9B /* Assets.xcassets */,
+				5E547060203FE91400C8AC9B /* LaunchScreen.storyboard */,
+				5E547063203FE91400C8AC9B /* Info.plist */,
+				5EDE81E620440B1000C692F5 /* test.py */,
+				5E13B2262045873200A64CF2 /* art.scnassets */,
+			);
+			path = RoomDetector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E547053203FE91400C8AC9B /* RoomDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E547066203FE91400C8AC9B /* Build configuration list for PBXNativeTarget "RoomDetector" */;
+			buildPhases = (
+				5E547050203FE91400C8AC9B /* Sources */,
+				5E547051203FE91400C8AC9B /* Frameworks */,
+				5E547052203FE91400C8AC9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomDetector;
+			productName = RoomDetector;
+			productReference = 5E547054203FE91400C8AC9B /* RoomDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E54704C203FE91400C8AC9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Talentica;
+				TargetAttributes = {
+					5E547053203FE91400C8AC9B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5E54704F203FE91400C8AC9B /* Build configuration list for PBXProject "RoomDetector" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E54704B203FE91400C8AC9B;
+			productRefGroup = 5E547055203FE91400C8AC9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E547053203FE91400C8AC9B /* RoomDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E547052203FE91400C8AC9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E547062203FE91400C8AC9B /* LaunchScreen.storyboard in Resources */,
+				5E13B2272045873200A64CF2 /* art.scnassets in Resources */,
+				5E54705F203FE91400C8AC9B /* Assets.xcassets in Resources */,
+				5EDE81E720440B1100C692F5 /* test.py in Resources */,
+				5E54705D203FE91400C8AC9B /* Main.storyboard in Resources */,
+				5E7439FA2040361C004D2D96 /* build.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E547050203FE91400C8AC9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E13B2252045855000A64CF2 /* File.swift in Sources */,
+				5E13B22B204595D200A64CF2 /* Predictions.swift in Sources */,
+				5E13B2222045855000A64CF2 /* Util.swift in Sources */,
+				5E13B22920458D6E00A64CF2 /* Color.swift in Sources */,
+				5EDE81DF2043E50300C692F5 /* Painting.mlmodel in Sources */,
+				5E13B21A2045851D00A64CF2 /* RoomView.swift in Sources */,
+				5E13B2192045851D00A64CF2 /* RoomDetail.swift in Sources */,
+				5E547058203FE91400C8AC9B /* AppDelegate.swift in Sources */,
+				5E13B2212045855000A64CF2 /* Utilities.swift in Sources */,
+				5E13B2242045855000A64CF2 /* ARText.swift in Sources */,
+				5E13B2232045855000A64CF2 /* TextNode.swift in Sources */,
+				5E13B214204584A700A64CF2 /* ARkitController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E54705B203FE91400C8AC9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E54705C203FE91400C8AC9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E547060203FE91400C8AC9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E547061203FE91400C8AC9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E547064203FE91400C8AC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E547065203FE91400C8AC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E547067203FE91400C8AC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6668G4952;
+				INFOPLIST_FILE = RoomDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentica.arkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5E547068203FE91400C8AC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6668G4952;
+				INFOPLIST_FILE = RoomDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentica.arkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E54704F203FE91400C8AC9B /* Build configuration list for PBXProject "RoomDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E547064203FE91400C8AC9B /* Debug */,
+				5E547065203FE91400C8AC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E547066203FE91400C8AC9B /* Build configuration list for PBXNativeTarget "RoomDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E547067203FE91400C8AC9B /* Debug */,
+				5E547068203FE91400C8AC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E54704C203FE91400C8AC9B /* Project object */;
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M7I-Fq-2qI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RoomDetector" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3f1-y1-kCD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rI4-89-iEr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.51875535100000003" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="dan-uF-DaV"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fq-UH-ZaU">
+                                <rect key="frame" x="176" y="322.5" width="22" height="22"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Fq-UH-ZaU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9dq-vH-zTC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rI4-89-iEr" secondAttribute="trailing" id="Cph-ch-6Ij"/>
+                            <constraint firstItem="rI4-89-iEr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="MPF-Q8-Mvf"/>
+                            <constraint firstItem="3f1-y1-kCD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="PyN-Y7-mhM"/>
+                            <constraint firstItem="3f1-y1-kCD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="VfO-jV-4cZ"/>
+                            <constraint firstItem="3f1-y1-kCD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ZId-DY-vDR"/>
+                            <constraint firstItem="3Fq-UH-ZaU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v6M-ua-Zhh"/>
+                            <constraint firstItem="3f1-y1-kCD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="w9e-XT-pAA"/>
+                            <constraint firstItem="rI4-89-iEr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="x5R-km-Lfq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="debugTextView" destination="rI4-89-iEr" id="9Vw-sg-NrM"/>
+                        <outlet property="sceneView" destination="3f1-y1-kCD" id="bHc-bH-8lX"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+        <!--Rkit Controller-->
+        <scene sceneID="fQG-Se-Yjr">
+            <objects>
+                <viewController id="M7I-Fq-2qI" customClass="ARkitController" customModule="RoomDetector" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Shf-J1-BI6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LhN-3q-lzZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LhN-3q-lzZ" firstAttribute="leading" secondItem="Xhv-5z-0sh" secondAttribute="leading" id="1Z3-bz-jOI"/>
+                            <constraint firstItem="Xhv-5z-0sh" firstAttribute="bottom" secondItem="LhN-3q-lzZ" secondAttribute="bottom" id="6tc-Dr-0bd"/>
+                            <constraint firstItem="Xhv-5z-0sh" firstAttribute="trailing" secondItem="LhN-3q-lzZ" secondAttribute="trailing" id="fDM-Ik-WPy"/>
+                            <constraint firstItem="Xhv-5z-0sh" firstAttribute="top" secondItem="LhN-3q-lzZ" secondAttribute="top" constant="20" id="fGb-BB-3pb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xhv-5z-0sh"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="LhN-3q-lzZ" id="z4g-9o-fg4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dKi-Pi-FSc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="830.73463268365822"/>
+        </scene>
+    </scenes>
+</document>
