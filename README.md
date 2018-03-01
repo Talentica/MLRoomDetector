@@ -1,4 +1,4 @@
-# MLRoomDetector # MLRoomDetector [![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)] (http://www.apache.org/licenses/LICENSE-2.0.html)
+# MLRoomDetector [![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)] 
 
 In past few years, the use of machine learning to solving complex problems have been increasing. In WWDC 2017 Apple provided machine learning videos which uses CoreML framework and later they released Turi Create as an easy to use tool for custom machine learning models. Turi Create focus on tasks instead of Algotithms and using Turi Create we can tackle a number of scenerios:
 
