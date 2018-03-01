@@ -23,6 +23,7 @@
 		5E54705F203FE91400C8AC9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E54705E203FE91400C8AC9B /* Assets.xcassets */; };
 		5E547062203FE91400C8AC9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E547060203FE91400C8AC9B /* LaunchScreen.storyboard */; };
 		5E7439FA2040361C004D2D96 /* build.py in Resources */ = {isa = PBXBuildFile; fileRef = 5E7439F92040361C004D2D96 /* build.py */; };
+		5EA7578320480C990091E211 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5EA7578220480C990091E211 /* README.md */; };
 		5EDE81DF2043E50300C692F5 /* Painting.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE81DE2043E50300C692F5 /* Painting.mlmodel */; };
 		5EDE81E720440B1100C692F5 /* test.py in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE81E620440B1000C692F5 /* test.py */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		5E547061203FE91400C8AC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E547063203FE91400C8AC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E7439F92040361C004D2D96 /* build.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = build.py; sourceTree = "<group>"; };
+		5EA7578220480C990091E211 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		5EDE81DE2043E50300C692F5 /* Painting.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Painting.mlmodel; sourceTree = "<group>"; };
 		5EDE81E620440B1000C692F5 /* test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +105,7 @@
 		5E547056203FE91400C8AC9B /* RoomDetector */ = {
 			isa = PBXGroup;
 			children = (
+				5EA7578220480C990091E211 /* README.md */,
 				5E13B21B2045853C00A64CF2 /* Utils */,
 				5E13B2162045851100A64CF2 /* Room */,
 				5EDE81DE2043E50300C692F5 /* Painting.mlmodel */,
@@ -181,6 +184,7 @@
 				5E547062203FE91400C8AC9B /* LaunchScreen.storyboard in Resources */,
 				5E13B2272045873200A64CF2 /* art.scnassets in Resources */,
 				5E54705F203FE91400C8AC9B /* Assets.xcassets in Resources */,
+				5EA7578320480C990091E211 /* README.md in Resources */,
 				5EDE81E720440B1100C692F5 /* test.py in Resources */,
 				5E54705D203FE91400C8AC9B /* Main.storyboard in Resources */,
 				5E7439FA2040361C004D2D96 /* build.py in Resources */,
